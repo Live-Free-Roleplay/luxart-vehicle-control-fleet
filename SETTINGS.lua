@@ -1,12 +1,12 @@
 SETTINGS = {}
 --Do Not Edit SETTINGS = {}
 --------------------COMMUNITY ID-------------------
-SETTINGS.community_id = ''
+SETTINGS.community_id = 'LFRP'
 --	Sets a prefix for saved values at the user end, without this people who play on multiple LVC server could face conflicts. **Once set DO NOT CHANGE. It will result in loss of data for end users.**
 --		I recommend something short (4-6 characters) for example a community abbreviation. SPACES ARE NOT ALLOWED.
 
 ------------------MENU KEYBINDING------------------
-SETTINGS.open_menu_key = 'O'
+SETTINGS.open_menu_key = '['
 --	Sets default key for RegisterKeyMapping. Examples: 'l','F5', etc. DEFAULT: 'O', users may set one in their GTA V > Settings > Hotkeys > FiveM settings. 
 --		More info: https://cookbook.fivem.net/2020/01/06/using-the-new-console-key-bindings/
 --		List of Keys: https://pastebin.com/u9ewvWWZ
@@ -45,8 +45,15 @@ SETTINGS.plugins_installed = false
 ---------------------VCF FILES---------------------
 SETTINGS.VCF_Files = {
 	'DEFAULT.xml',
+	'EPSILON.xml',
+	'GOLD.xml',
+	'SCORPION.xml',
+	'SS2000.xml',
+	'THUNDER.xml',
+	'FIRE.xml',
+	'EQ2B.xml',
 }
 
 SETTINGS.VCF_Assignments = {
-	['DEFAULT'] = { 1 },
+	['DEFAULT'] = { 2, 3, 4, 5, 6, 7, 8 },
 }
