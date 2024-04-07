@@ -44,6 +44,7 @@ SETTINGS.plugins_installed = false
 
 ---------------------VCF FILES---------------------
 SETTINGS.VCF_Files = {
+	'DEFAULT.xml',
 	'EPSILON.xml',
 	'GOLD.xml',
 	'SCORPION.xml',
@@ -54,5 +55,5 @@ SETTINGS.VCF_Files = {
 }
 
 SETTINGS.VCF_Assignments = {
-	['DEFAULT'] = { 1, 2, 3, 4, 5, 6, 7 },
+	['DEFAULT'] = { 2, 3, 4, 5, 6, 7, 8 },
 }

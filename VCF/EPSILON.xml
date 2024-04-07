@@ -6,25 +6,22 @@
 		<HORNS>
 		<!--1==================================================================================================================================================================================================================-->
 			<HORN Name="AIRHORN" 	Option="1"	ResidentString=	""
-												String=			"OISS_SSA_VEHAUD_DPPD_NEW_HORN" 		Ref=	"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
+												String=			"OISS_SSA_VEHAUD_LSPD_NEW_HORN" 		Ref=	"OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_LSPD_NEW"
 												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
 		<!--===================================================================================================================================================================================================================-->
 		</HORNS>
 		<SIRENS>
 		<!--1==================================================================================================================================================================================================================-->
 			<SIREN Name="WAIL" 		Option="1"	ResidentString=	""
-												String=			"OISS_SSA_VEHAUD_DPPD_NEW_SIREN_ADAM" 		Ref=	"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
+												String=			"OISS_SSA_VEHAUD_LSPD_NEW_SIREN_ADAM" 		Ref=	"OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_LSPD_NEW"
 												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
 		<!--2==================================================================================================================================================================================================================-->
 			<SIREN Name="YELP" 		Option="1"	ResidentString=	""
-												String=			"OISS_SSA_VEHAUD_DPPD_NEW_SIREN_BOY" 		Ref=	"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
+												String=			"OISS_SSA_VEHAUD_LSPD_NEW_SIREN_BOY" 		Ref=	"OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_LSPD_NEW"
 												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
 		<!--3==================================================================================================================================================================================================================-->
 			<SIREN Name="PRIORITY" 	Option="1"	ResidentString=	""
-												String=			"OISS_SSA_VEHAUD_DPPD_NEW_SIREN_CHARLES" 	Ref=		"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
-												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
-			<SIREN Name="HIGHLOW" 	Option="1"	ResidentString=	""
-												String=			"OISS_SSA_VEHAUD_DPPD_NEW_SIREN_DAVID" 	Ref=		"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
+												String=			"OISS_SSA_VEHAUD_LSPD_NEW_SIREN_CHARLES" 	Ref=		"OISS_SSA_VEHAUD_LSPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_LSPD_NEW"
 												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
 		<!--===================================================================================================================================================================================================================-->
 		</SIRENS>

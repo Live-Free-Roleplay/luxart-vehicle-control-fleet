@@ -5,23 +5,26 @@
 	<TONES>
 		<HORNS>
 		<!--1==================================================================================================================================================================================================================-->
-			<HORN Name="AIRHORN" 	Option="1"	ResidentString=	"SIRENS_AIRHORN"
-												String=			"" 		Ref=	"" 	Bank= ""
+			<HORN Name="AIRHORN" 	Option="1"	ResidentString=	""
+												String=			"OISS_SSA_VEHAUD_DPPD_NEW_HORN" 		Ref=	"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
 												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
 		<!--===================================================================================================================================================================================================================-->
 		</HORNS>
 		<SIRENS>
 		<!--1==================================================================================================================================================================================================================-->
-			<SIREN Name="WAIL" 		Option="1"	ResidentString=	"VEHICLES_HORNS_SIREN_1"
-												String=			"" 		Ref=	"" 	Bank= ""
+			<SIREN Name="WAIL" 		Option="1"	ResidentString=	""
+												String=			"OISS_SSA_VEHAUD_DPPD_NEW_SIREN_ADAM" 		Ref=	"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
 												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
 		<!--2==================================================================================================================================================================================================================-->
-			<SIREN Name="YELP" 		Option="1"	ResidentString=	"VEHICLES_HORNS_SIREN_2"
-												String=			"" 		Ref=	"" 	Bank= ""
+			<SIREN Name="YELP" 		Option="1"	ResidentString=	""
+												String=			"OISS_SSA_VEHAUD_DPPD_NEW_SIREN_BOY" 		Ref=	"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
 												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
 		<!--3==================================================================================================================================================================================================================-->
-			<SIREN Name="PRIORITY" 	Option="1"	ResidentString=	"VEHICLES_HORNS_POLICE_WARNING"
-												String=			"" 	Ref=		"" 	Bank= ""
+			<SIREN Name="PRIORITY" 	Option="1"	ResidentString=	""
+												String=			"OISS_SSA_VEHAUD_DPPD_NEW_SIREN_CHARLES" 	Ref=		"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
+												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
+			<SIREN Name="HIGHLOW" 	Option="1"	ResidentString=	""
+												String=			"OISS_SSA_VEHAUD_DPPD_NEW_SIREN_DAVID" 	Ref=		"OISS_SSA_VEHAUD_DPPD_NEW_SOUNDSET" 	Bank= "DLC_SERVERSIDEAUDIO\\OISS_SSA_VEHAUD_DPPD_NEW"
 												RumblerString=	""	RumblerRef=	"" 	RumblerBank=""/>
 		<!--===================================================================================================================================================================================================================-->
 		</SIRENS>
@@ -69,23 +72,23 @@
 	<MENU>
 		<Menu_Access Enabled='true'/>
 		<Menu_Main_Siren_Settings Enabled="true"/>
-		<Toggle_Peer_Override Enabled="false"/>	
+		<Toggle_Peer_Override Enabled="true"/>	
 		<Toggle_Local_Override Enabled="false"/>
 		<Toggle_Airhorn_Intrp Enabled="true"/>
 		<Toggle_Reset_Standby Enabled="true"/>
-		<Custom_Tone_Options Enabled="true"/>
+		<Custom_Tone_Options Enabled="false"/>
 		<Custom_Manual Enabled="true"/>
 		<Custom_Auxiliary Enabled="true"/>
 		<Toggle_Park_Kill Enabled="true"/>
-		<Menu_HUD_Settings Enabled="true"/>
-		<Toggle_HUD Enabled="true"/>
-		<Custom_Backlight_Mode Enabled="true"/>
-		<Menu_Audio_Settings Enabled="true"/>
-		<Toggle_Radio Enabled="true"/>
-		<Custom_Scheme Enabled="true"/>
+		<Menu_HUD_Settings Enabled="false"/>
+		<Toggle_HUD Enabled="false"/>
+		<Custom_Backlight_Mode Enabled="false"/>
+		<Menu_Audio_Settings Enabled="false"/>
+		<Toggle_Radio Enabled="false"/>
+		<Custom_Scheme Enabled="false"/>
 		<Toggle_Clicks Enabled="true"/>
-		<Custom_Activity_Reminder Enabled="true"/>
-		<Menu_Plugins Enabled="true"/>
+		<Custom_Activity_Reminder Enabled="false"/>
+		<Menu_Plugins Enabled="false"/>
 	</MENU>
 	<PLUGINS>
 
