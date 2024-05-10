@@ -38,8 +38,8 @@
 		<Airhorn_Intrp Enabled="true"/>
 		<Reset_Standby Enabled="true"/>
 		<Park_Kill Enabled="true"/>
-		<Peer_Override Enabled="false"/>
-		<Local_Override Enabled="true"/>
+		<Peer_Override Enabled="true"/>
+		<Local_Override Enabled="false"/>
 		<Rumbler Enabled="false"/>
 	</SIREN_CONFIG>
 	<!-- HUD SETTINGS -->	

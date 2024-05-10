@@ -32,7 +32,7 @@ files({
 	'UI/sounds/**/*.ogg',
 	'UI/textures/**/*.png',
 	'UI/textures/**/*.gif',
-	'PLUGINS/**/*.json'
+	--'PLUGINS/**/*.json'
 })
 
 
@@ -72,15 +72,15 @@ client_scripts {
     "@RageUI/menu/panels/UIStatisticsPanel.lua",
     "@RageUI/menu/windows/UIHeritage.lua",
 	-------------------------------------
-	'SIRENS.lua',
+	--'SIRENS.lua',
 	'/UTIL/cl_*.lua',
 	'/UI/cl_*.lua',
-	'/PLUGINS/**/SETTINGS.lua',
-	'/PLUGINS/**/cl_*.lua',
+	--'/PLUGINS/**/SETTINGS.lua',
+	--'/PLUGINS/**/cl_*.lua',
 }
 
 server_script {
 	'/UTIL/sv_*.lua',
-	'/PLUGINS/**/sv_*.lua'
+	--'/PLUGINS/**/sv_*.lua'
 }
 ------------------------------
